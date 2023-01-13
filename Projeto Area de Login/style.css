@@ -8,7 +8,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(90deg, rgb(242, 53, 173), rgb(53, 183, 252));
+    background: linear-gradient(90deg, rgb(226, 239, 252), rgb(53, 183, 252));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: white;
-    box-shadow: 0 0 14px lightgray;
+    box-shadow: 0 0 15px rgb(221, 221, 221);
     border-radius: 8px;
     width: 70vh;
     height: 80vh;
@@ -34,7 +34,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgb(242, 53, 173), rgb(53, 183, 252));
+    background: linear-gradient(90deg, rgb(226, 239, 252), rgb(53, 183, 252));
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px ;
+
     height: 20%;
 }
 .social-media{
@@ -49,7 +52,7 @@ body{
     margin-left: 20px;
     
 }
-.social-media a first-child img{
+.social-media a:first-child img{
     margin-left: 0;
 }
 .social-media a{
@@ -69,6 +72,8 @@ body{
     margin-top: 2px;
     padding: 0 0.5rem;
     border-radius: 8px;
+    border: solid lightgray 1px;
+    
 }
 .login-area form label{
     display: flex;
@@ -84,7 +89,12 @@ body{
     width: 40%;
     cursor: pointer;
     margin-top: 1rem;
-
-
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+.login-area form input[type="submit"]:hover{
+    background-color: rgb(143, 215, 253);
+    color: white;
 }
 
