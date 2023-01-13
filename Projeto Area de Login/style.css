@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+    box-sizing: border-box;
+    bottom: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, rgb(242, 53, 173), rgb(53, 183, 252));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-area{
+    margin: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 14px lightgray;
+    border-radius: 8px;
+    width: 70vh;
+    height: 80vh;
+}
+.login-area h1{
+    color: white;
+    font-size: 3rem;
+    
+}
+.area-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(242, 53, 173), rgb(53, 183, 252));
+    height: 20%;
+}
+.social-media{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.social-media img{
+    width: 30px;
+    margin-left: 20px;
+    
+}
+.social-media a first-child img{
+    margin-left: 0;
+}
+.social-media a{
+  
+    
+    text-decoration: none;
+}
+.login-area form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-area form input{
+    width: 40vh;
+    height: 40px;
+    margin-top: 2px;
+    padding: 0 0.5rem;
+    border-radius: 8px;
+}
+.login-area form label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.login-area form span{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+.login-area form input[type="submit"]{
+    width: 40%;
+    cursor: pointer;
+    margin-top: 1rem;
+
+
+}
+
